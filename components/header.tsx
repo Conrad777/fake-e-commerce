@@ -10,6 +10,8 @@ import { ShoppingCart, User } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import LoginModal from "./login-modal"
 
+// commit to push change
+
 export default function Header() {
   const router = useRouter()
   const { cart, cartCount } = useCart()
