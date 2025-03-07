@@ -12,7 +12,7 @@ import LoginModal from "./login-modal"
 
 export default function Header() {
   const router = useRouter()
-  const { cart, cartCount } = useCart()
+  const { cartCount } = useCart()
   const { user, logout } = useAuth()
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false)
 
