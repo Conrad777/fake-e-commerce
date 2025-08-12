@@ -11,7 +11,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "T-Shirt Store",
+  title: "T-Shirt Store Yeah",
   description: "Shop the latest t-shirt designs",
 };
 
